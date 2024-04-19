@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Launch</title>
+    <style>
+      /* Style for the body */
+      body {
+        display: flex;
+        justify-content: center; /* Center content horizontally */
+        align-items: center; /* Center content vertically */
+        height: 100vh; /* Make the body height equal to the viewport height */
+        margin: 0;
+        background-color: rgb(255, 255, 255); /* Remove default margin */
+      }
+
+      /* Style for the button */
+      #loadGifBtn {
+        background-color: #4caf50; /* Green background color */
+        border: none; /* Remove border */
+        color: white; /* White text color */
+        padding: 10px 20px; /* Add padding */
+        text-align: center; /* Center text */
+        text-decoration: none; /* Remove default text decoration */
+        font-size: 16px; /* Font size */
+        cursor: pointer; /* Cursor on hover */
+        border-radius: 5px; /* Rounded corners */
+        transition: background-color 0.3s; /* Smooth transition */
+      }
+
+      /* Change background color on hover */
+      #loadGifBtn:hover {
+        background-color: #45a049;
+      }
+    </style>
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="text-align: center">
+      <h2 id="message">
+        The Bharat Scouts & Guides Sairam District Association website
+        Launching.
+      </h2>
+      <br />
+      <button id="loadGifBtn">Launch</button>
+    </div>
+    <div id="gifContainer" style="display: none">
+      <img
+        id="gif"
+        src="https://i.giphy.com/mfP8FKTTRiG722CINn.webp"
+        alt="Ribbon Cutting GIF"
+      />
+    </div>
+
+    <script>
+      document
+        .getElementById("loadGifBtn")
+        .addEventListener("click", function () {
+          // Show the GIF container
+          document.getElementById("gifContainer").style.display = "block";
+          document.getElementById("loadGifBtn").style.display = "none";
+          document.getElementById("message").style.display = "none";
+          // Hide the GIF after 5 seconds
+          setTimeout(function () {
+            // Navigate after GIF is loaded and displayed
+            window.location.href = "/Sairamscout/index.html";
+          }, 1000); // Adjust the duration as needed (in milliseconds)
+        });
+    </script>
+  </body>
+</html>
