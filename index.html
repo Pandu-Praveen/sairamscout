@@ -23,18 +23,26 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Sairam scout</title>
   </head>
+
   <body>
+    <canvas id="canvas"></canvas>
     <nav>
       <ul class="nav__links">
+        <li class="link">
+          <img src="assets/sairam.png" alt="" style="width: 50px" />
+        </li>
         <li class="link"><a href="#home">Home</a></li>
         <li class="link"><a href="#trending">About</a></li>
         <li class="link"><a href="#destination">Gallery</a></li>
         <li class="link"><a href="#team">Organization</a></li>
         <li class="link"><a href="#destination">Resource</a></li>
         <li class="link"><a href="#events">Events</a></li>
-        <li class="link"><a href="#latest">Latest News</a></li>
+
         <li class="link"><a href="#upcoming">Upcoming Events</a></li>
         <li class="link"><a href="#footer">Contact Us</a></li>
+        <li class="link">
+          <img src="assets/barathscouts.jpeg" alt="" style="width: 50px" />
+        </li>
       </ul>
     </nav>
 
@@ -44,6 +52,9 @@
       /> -->
       <div class="slider">
         <div class="list">
+          <div class="item">
+            <img src="assets/scoutImage.png" alt="" />
+          </div>
           <div class="item">
             <img src="assets/scoutHero.JPG" alt="" />
           </div>
@@ -60,6 +71,7 @@
             <img src="assets/IMG-20240416-WA0003.jpg" alt="" />
           </div>
         </div>
+
         <div class="buttons">
           <button id="prev"><</button>
           <button id="next">></button>
@@ -89,24 +101,27 @@
       </div>
       <div class="trending__grid">
         <div class="trending__card">
-          <img src="assets/barathscouts.jpeg" alt="trending" />
-          <h1>Overview</h1>
-          <p>
-            Scout is meant for obtaining character training and preparing for
-            good citizenship designed for the interest of Boys and Girls. When a
-            student participates in Scout and Guide he or she develops the sense
-            of trust, loyalty, healthfulness, friendship, courteous and
-            obedience. Our school students participate for undergoing various
-            camps and they receive the Governor’s Award every year.
-          </p>
-          <div class="trending__details">
-            <!-- <div class="price">
+          <div class="trending__image">
+            <img src="assets/barathscouts.jpeg" alt="trending" />
+          </div>
+          <div class="trending__content">
+            <h1>Overview</h1>
+            <p>
+              Scout is meant for obtaining character training and preparing for
+              good citizenship designed for the interest of Boys and Girls. When
+              a student participates in Scout and Guide he or she develops the
+              sense of trust, loyalty, healthfulness, friendship, courteous and
+              obedience. Our school students participate for undergoing various
+              camps and they receive the Governor’s Award every year.
+            </p>
+            <div class="trending__details">
+              <!-- <div class="price">
               <p>From</p>
               <h3>$745.00</h3>
               <p>*Price varies</p>
             </div> -->
-            <div class="trending__ratings">
-              <!-- <div>
+              <div class="trending__ratings">
+                <!-- <div>
                 <span><i class="ri-star-fill"></i></span>
                 <span><i class="ri-star-fill"></i></span>
                 <span><i class="ri-star-fill"></i></span>
@@ -115,34 +130,36 @@
               </div>
               <p>4.5 (15)</p>
             </div> -->
-            </div>
-            <!-- <h5>
+              </div>
+              <!-- <h5>
             <span><i class="ri-time-line"></i></span> 6 days
           </h5>
           <p>
             <span><i class="ri-check-line"></i></span> Free Cancellation
           </p> -->
+            </div>
           </div>
         </div>
         <div class="trending__card">
-          <img
-            src="https://ece.sairam.edu.in/wp-content/uploads/sites/4/2018/02/vision.png"
-            alt="trending"
-          />
-          <h1>Vision</h1>
-          <p>
-            To create a generation of empowered, compassionate, and skilled
-            individuals who contribute positively to their communities and the
-            world, guided by the principles of integrity, respect, and service.
-          </p>
-          <div class="trending__details">
-            <div class="price">
-              <!-- <p>From</p>
+          <div class="trending__image">
+            <img src="assets/sairam.png" alt="trending" />
+          </div>
+          <div class="trending__content">
+            <h1>Vision</h1>
+            <p>
+              To create a generation of empowered, compassionate, and skilled
+              individuals who contribute positively to their communities and the
+              world, guided by the principles of integrity, respect, and
+              service.
+            </p>
+            <div class="trending__details">
+              <div class="price">
+                <!-- <p>From</p>
               <h3>$957.50</h3>
               <p>*Price varies</p> -->
-            </div>
-            <div class="trending__ratings">
-              <!-- <div>
+              </div>
+              <div class="trending__ratings">
+                <!-- <div>
                 <span><i class="ri-star-fill"></i></span>
                 <span><i class="ri-star-fill"></i></span>
                 <span><i class="ri-star-fill"></i></span>
@@ -150,38 +167,38 @@
                 <span><i class="ri-star-line"></i></span>
               </div>
               <p>4.8 (10)</p> -->
+              </div>
             </div>
+            <h5>
+              <!-- <span><i class="ri-time-line"></i></span> 7 days -->
+            </h5>
+            <p>
+              <!-- <span><i class="ri-check-line"></i></span> Free Cancellation -->
+            </p>
           </div>
-          <h5>
-            <!-- <span><i class="ri-time-line"></i></span> 7 days -->
-          </h5>
-          <p>
-            <!-- <span><i class="ri-check-line"></i></span> Free Cancellation -->
-          </p>
         </div>
         <div class="trending__card">
-          <img
-            src="https://ece.sairam.edu.in/wp-content/uploads/sites/4/2018/02/mission.png"
-            alt="trending"
-          />
-
-          <h1>Mission</h1>
-          <p>
-            Our mission is to provide young people with opportunities for
-            adventure, personal growth, and leadership development through
-            outdoor activities, community service projects, and values-based
-            education. We aim to instill in our members a sense of
-            responsibility, self-reliance, and commitment to making a difference
-            in the world around them.
-          </p>
-          <div class="trending__details">
-            <!-- <div class="price">
+          <div class="trending__image">
+            <img src="assets/sairam.png" alt="trending" />
+          </div>
+          <div class="trending__content">
+            <h1>Mission</h1>
+            <p>
+              Our mission is to provide young people with opportunities for
+              adventure, personal growth, and leadership development through
+              outdoor activities, community service projects, and values-based
+              education. We aim to instill in our members a sense of
+              responsibility, self-reliance, and commitment to making a
+              difference in the world around them.
+            </p>
+            <div class="trending__details">
+              <!-- <div class="price">
               <p>From</p>
               <h3>$500.50</h3>
               <p>*Price varies</p>
             </div> -->
-            <div class="trending__ratings">
-              <!-- <div>
+              <div class="trending__ratings">
+                <!-- <div>
                 <span><i class="ri-star-fill"></i></span>
                 <span><i class="ri-star-fill"></i></span>
                 <span><i class="ri-star-fill"></i></span>
@@ -189,14 +206,15 @@
                 <span><i class="ri-star-line"></i></span>
               </div>
               <p>4.2 (25)</p> -->
+              </div>
             </div>
-          </div>
-          <!-- <h5>
+            <!-- <h5>
             <span><i class="ri-time-line"></i></span> 3 days
           </h5>
           <p>
             <span><i class="ri-check-line"></i></span> Free Cancellation
           </p> -->
+          </div>
         </div>
       </div>
     </section>
@@ -403,7 +421,7 @@
         <h4>Watch Our Achievements</h4>
         <div class="video__container">
           <video
-            src="assets/scouts.mp4"
+            src="https://i.giphy.com/mfP8FKTTRiG722CINn.webp"
             autoplay
             loop
             muted
@@ -422,6 +440,32 @@
         </div> -->
       </div>
       <div class="guide__grid">
+        <div class="guide__card">
+          <div class="guide__image">
+            <img src="assets/LeoMuthu.png" alt="guide" />
+          </div>
+
+          <div class="guide__content">
+            <div class="guide__details">
+              <h4>Mr Leo Muthu</h4>
+              <!-- <p>Sairam</p> -->
+            </div>
+            <p>Founder of the Sairam Group of Institutions</p>
+          </div>
+        </div>
+        <div class="guide__card">
+          <div class="guide__image">
+            <img src="assets/Muthuvairavan.png" alt="guide" />
+          </div>
+
+          <div class="guide__content">
+            <div class="guide__details">
+              <h4>Mr A. Muthuvairavan CSO</h4>
+              <!-- <p>Sairam</p> -->
+            </div>
+            <p>District Commissioner Rover</p>
+          </div>
+        </div>
         <div class="guide__card">
           <div class="guide__image">
             <img
@@ -879,7 +923,11 @@
       </div>
       <div class="footer__bar">
         © Sri Sairam Group Of Institutions, 2024. All rights reserved.
-        <a href="https://sairamincubation.com/" target="_blank"
+        <span> Proudly Designed and developed by</span>
+        <a
+          href="https://sairamincubation.com/"
+          target="_blank"
+          style="font-weight: bold"
           >Sairam Techno Incubator Foundation</a
         >
       </div>
