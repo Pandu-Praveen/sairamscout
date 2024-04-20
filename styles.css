@@ -777,6 +777,9 @@ nav {
   .trending__grid {
     grid-template-columns: repeat(1, 1fr);
   }
+  .trending__image {
+    width: 50px;
+  }
 
   .destination__grid {
     grid-template-columns: repeat(2, 1fr);
