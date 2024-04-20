@@ -696,7 +696,7 @@ nav {
   .footer__container {
     grid-template-columns: repeat(4, 1fr);
   }
-  guide__grid {
+  .guide__grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
