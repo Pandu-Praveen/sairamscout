@@ -26,6 +26,20 @@
   </head>
 
   <body>
+  
+    <script src="confetti.js"></script>
+    <script>
+      function loadConfettiScript() {
+        var script = document.createElement("script");
+        script.src = "confetti.js";
+        script.onload = function () {
+          startConfetti();
+          setTimeout(stopConfetti, 5000); // Stop confetti after 5 seconds
+        };
+        document.body.appendChild(script);
+      }
+      window.onload = loadConfettiScript;
+    </script>
 <!--     <canvas id="canvas"></canvas> -->
     <nav>
       <ul class="nav__links">
