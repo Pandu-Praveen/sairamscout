@@ -694,7 +694,7 @@ nav {
   }
 
   .footer__container {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   #header_btn {
     margin-left: 350px;
